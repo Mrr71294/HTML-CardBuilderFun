@@ -1,0 +1,247 @@
+.container {}
+
+.pokemonCard {
+  border-style: solid;
+  border-color: rgb(236, 140, 187);
+  border-width: 8px;
+  width: 380px;
+  height: 550px;
+  background: linear-gradient(to bottom right, rgb(162, 153, 163), rgb(60, 47, 76), rgb(143, 137, 157), rgb(162, 153, 163), rgb(60, 47, 76), rgb(143, 137, 157));
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+}
+
+#mewImage {
+  height: auto;
+  width: auto;
+  width: 330px;
+  height: 300px;
+  border-style: solid;
+  border-color: rgb(236, 140, 187);
+  border-bottom-color: silver;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.smaller {
+  font-size: x-small;
+}
+
+#pokemonName {
+  margin: 3px 0px 3px 20px;
+  margin-left: 30px;
+  display: inline;
+}
+
+.pokeNumber {
+  width: 330px;
+  border-style: solid;
+  border-color: rgb(236, 140, 187);
+  background-color: silver;
+  border-top-color: silver;
+  padding-bottom: 4px;
+  font-size: 13px
+}
+
+.powerDetails {
+  margin: 0px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.powerDetails p {
+  margin: 0px;
+}
+
+.powerDetails h3 {
+  margin-bottom: 0px;
+  display: inline;
+  margin-left: 30px;
+}
+
+.powerDetails span {
+  margin-bottom: 0px;
+  display: inline;
+  float: right;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.attImage {
+  height: 13px;
+  width: 13px;
+}
+
+.summary {
+  /* margin:0px; */
+  margin-left: 30px;
+  margin-right: 35px;
+  border-top: solid 3px silver;
+}
+
+#hp {
+  display: inline;
+  /* float:right; */
+  margin: 3px 3px 0px 150px;
+  font-weight: 80px;
+}
+
+.hpImage {
+  height: 20px;
+  width: 20px;
+  display: inline;
+  margin-top: 5px;
+}
+
+.smallest {
+  font-size: xx-small;
+}
+
+#blueEyesImage {
+  height: auto;
+  width: auto;
+  width: 330px;
+  height: 290px;
+  border: solid 5px rgb(78, 64, 82);
+}
+
+.monsterName {
+  border: solid rgb(69, 53, 68);
+  margin: 10px 22px 10px 22px;
+  padding: 5px 0px 5px 0px;
+  box-shadow: 2px 3px black;
+  background: linear-gradient(to bottom right, rgb(186, 138, 83), rgb(211, 194, 152), rgb(193, 147, 81), rgb(186, 138, 83), rgb(211, 194, 152), rgb(193, 147, 81));
+}
+
+.monsterCard {
+  border-style: solid;
+  border-color: rgb(69, 53, 68);
+  border-width: 8px;
+  width: 380px;
+  height: 550px;
+  background: linear-gradient(to bottom right, rgb(186, 138, 83), rgb(144, 97, 61), rgb(193, 147, 81), rgb(186, 138, 83), rgb(144, 97, 61), rgb(193, 147, 81));
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+
+.starRow {
+  float: right;
+  margin-right: 22px;
+}
+
+.left {
+  margin-left: 22px;
+}
+
+.right {
+  float: right;
+  margin-right: 22px
+}
+
+.textBox {
+  border: solid 5px rgb(154, 71, 51);
+  margin: 0px 15px 0px 15px;
+  background: linear-gradient(to bottom right, rgb(186, 138, 83), rgb(211, 194, 152), rgb(193, 147, 81), rgb(186, 138, 83), rgb(211, 194, 152), rgb(193, 147, 81));
+}
+
+.textBox h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.textBox p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px black;
+}
+
+.textBox span {
+  margin-left: 200px;
+}
+
+.lightImage {
+  height: 25px;
+  width: 25px;
+}
+
+.monsterName h3 {
+  font-size: 25px;
+}
+
+.animalCard {
+  border-style: solid;
+  border-color: green;
+  border-width: 8px;
+  width: 380px;
+  height: 550px;
+  background-image: url("https://www.cgsociety.org/cgsarchive/newgallerycrits/g29/418029/418029_1271151688_large.jpg");
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+}
+
+.animalImage {
+  height: auto;
+  width: auto;
+  height: 275px;
+  width: 275px;
+  vertical-align: bottom;
+  border: solid green 5px;
+}
+
+.animalName {
+  border: solid rgb(144, 97, 61) 5px;
+  margin: 5px 80px 5px 80px;
+  background-image: url(http://biteinto.info/wp-content/uploads/2016/02/light-brown-wood-flooring-and-techcredo-wood-texture-wallpaper-collection-for-android-19.jpg);
+}
+
+.animalName h1 {
+  color: green;
+}
+
+.animalTextBox {
+  border: solid rgb(144, 97, 61) 5px;
+  margin: 5px 80px 5px 80px;
+  background-image: url(http://biteinto.info/wp-content/uploads/2016/02/light-brown-wood-flooring-and-techcredo-wood-texture-wallpaper-collection-for-android-19.jpg);
+  margin: 5px 20px 5px 20px;
+}
+
+.animalTextBox p, .animalTextBox h3 {
+  margin-top: 0px;
+  font-weight: bold
+}
+
+.animalTextBox h3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: green;
+  font-weight: bold
+}
+
+.animalTextBox li {
+  font-weight: bold
+}
+
+.rawr {
+  position: absolute;
+  left: 700px;
+  top: 100px;
+  color: rgb(144, 97, 61);
+  /* font-size: 50px; */
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border: solid 5px rgb(144, 97, 61);
+}
